@@ -40,12 +40,13 @@ jobs:
           cache: "pip"
 
       - name: Install and Build 🔧
-        run: |
-          sudo apt-get update && sudo apt-get install -y imagemagick
-          pip3 install --upgrade nbconvert
-          bundle install
-          export JEKYLL_ENV=production
-          bundle exec jekyll build
+  run: |
+    sudo apt-get update && sudo apt-get install -y imagemagick build-essential
+    pip3 install --upgrade nbconvert
+    gem install bundler
+    bundle install
+    export JEKYLL_ENV=production
+    bundle exec jekyll build
 
       - name: Purge unused CSS 🧹
         run: |
