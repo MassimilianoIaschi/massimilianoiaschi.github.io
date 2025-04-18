@@ -1,16 +1,15 @@
-name: Deploy site
+name: Build and Deploy Jekyll Site
 
 on:
   push:
     branches:
       - main
-  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  deploy:
+  build-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -20,38 +19,16 @@ jobs:
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.3.5"
+          ruby-version: 3.3  # Ruby version compatible with all your gems
           bundler-cache: true
 
-      - name: Setup Python 🐍
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.13"
-          cache: "pip"
+      - name: Install dependencies
+        run: bundle install
 
-      - name: Setup Node.js ⚙️
-        uses: actions/setup-node@v3
-        with:
-          node-version: 20
+      - name: Build site with Jekyll
+        run: bundle exec jekyll build
 
-      - name: Fix permissions
-        run: chmod +x bin/* || true
-
-      - name: Install and Build 🔧
-        run: |
-          sudo apt-get update && sudo apt-get install -y imagemagick build-essential
-          pip3 install --upgrade nbconvert
-          gem install bundler
-          bundle install
-          export JEKYLL_ENV=production
-          bundle exec jekyll build
-
-      - name: Purge unused CSS 🧹
-        run: |
-          npm install -g purgecss
-          purgecss -c purgecss.config.js
-
-      - name: Deploy 🚀
+      - name: Deploy to GitHub Pages 🚀
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
