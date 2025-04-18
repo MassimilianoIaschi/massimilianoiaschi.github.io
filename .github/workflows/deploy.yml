@@ -40,13 +40,18 @@ jobs:
           cache: "pip"
 
       - name: Install and Build 🔧
-  run: |
-    sudo apt-get update && sudo apt-get install -y imagemagick build-essential
-    pip3 install --upgrade nbconvert
-    gem install bundler
-    bundle install
-    export JEKYLL_ENV=production
-    bundle exec jekyll build
+        run: |
+          sudo apt-get update && sudo apt-get install -y imagemagick build-essential
+          pip3 install --upgrade nbconvert
+          gem install bundler
+          bundle install
+          export JEKYLL_ENV=production
+          bundle exec jekyll build
+
+      - name: Setup Node.js ⚙️
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
 
       - name: Purge unused CSS 🧹
         run: |
@@ -60,4 +65,3 @@ jobs:
           folder: _site
           branch: gh-pages
           clean: true
-
