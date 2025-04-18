@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Centipede-Inspired Robotics
-description: ...pushing the limits of...
+title: Using Tactile Sensing to...
+description: ...enhance multilegged robotics locomotion in complex environments
 img: assets/img/juntao_paper.gif
 importance: 1
-#category: work
+category: Past Projects
 related_publications: false
 ---
 

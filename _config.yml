@@ -191,6 +191,7 @@ keep_files:
 # Plug-ins
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
   - jekyll-get-json
   - jekyll-imagemagick
   - jekyll-jupyter-notebook

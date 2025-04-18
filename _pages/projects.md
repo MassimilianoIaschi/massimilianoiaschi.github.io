@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Current Research
+title: Research
 permalink: /projects/
-description: A short summary of the current projects I am working on in the CRAB Lab at Georgia Tech.
+description: A short summary of the current and past projects I have been working mainly in the CRAB Lab at Georgia Tech. Projects from previous years are also mentioned.
 nav: true
 nav_order: 3
-#display_categories: [work, fun]
+display_categories: [Past Projects, Current Projects]
 horizontal: false
 ---
 

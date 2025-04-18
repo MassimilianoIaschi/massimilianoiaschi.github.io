@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My first paper as a first-author, "Addition of a peristaltic wave improves multi-legged locomotion performance on complex terrains", was accepted for ICRA2025!
+My first paper as a first-author, "Addition of a peristaltic wave improves multi-legged locomotion performance on complex terrains", was accepted to ICRA2025!
