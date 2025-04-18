@@ -5,6 +5,10 @@ on:
     branches:
       - main
   workflow_dispatch:
+    inputs:
+      dummy:
+        description: "Manual trigger"
+        required: false
 
 permissions:
   contents: write
@@ -29,6 +33,14 @@ jobs:
           python-version: "3.13"
           cache: "pip"
 
+      - name: Setup Node.js ⚙️
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Fix permissions
+        run: chmod +x bin/*
+
       - name: Install and Build 🔧
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick build-essential
@@ -37,11 +49,6 @@ jobs:
           bundle install
           export JEKYLL_ENV=production
           bundle exec jekyll build
-
-      - name: Setup Node.js ⚙️
-        uses: actions/setup-node@v3
-        with:
-          node-version: 20
 
       - name: Purge unused CSS 🧹
         run: |
@@ -53,6 +60,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
-          branch: gh-pages
+          branch: main  # changed from gh-pages
           clean: true
+
 
