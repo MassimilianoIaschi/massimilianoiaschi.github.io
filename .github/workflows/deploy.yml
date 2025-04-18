@@ -4,16 +4,6 @@ on:
   push:
     branches:
       - main
-    paths: 
-      - "assets/**"
-      - "**.bib"
-      - "**.html"
-      - "**.js"
-      - "**.liquid"
-      - "**/*.md"
-      - "**.yml"
-      - "Gemfile"
-      - "Gemfile.lock"
   workflow_dispatch:
 
 permissions:
@@ -65,3 +55,4 @@ jobs:
           folder: _site
           branch: gh-pages
           clean: true
+
