@@ -246,7 +246,6 @@ GEM
       execjs (>= 0.3.0, < 3)
     unicode-display_width (2.6.0)
     uri (1.0.2)
-    wdm (0.2.0)
     webrick (1.9.1)
 
 PLATFORMS
@@ -269,7 +268,7 @@ DEPENDENCIES
   css_parser
   feedjira
   httparty
-  jekyll
+  jekyll (~> 4.3.2)
   jekyll-archives
   jekyll-email-protect
   jekyll-feed
@@ -290,7 +289,7 @@ DEPENDENCIES
   observer
   ostruct
   terser
-  wdm (>= 0.1.0)
+  webrick
 
 BUNDLED WITH
    2.6.2
