@@ -8,11 +8,11 @@ category: Past Projects
 related_publications: false
 ---
 
-Between 2023 and 2024 we performed multiple biological experiments on centipedes in confined environments. Among various interesting behaviors, we discovered that centipedes often make use of an earthworm-like motion called peristalsis when their legs are not enough to propel them forward or when they are unable to use them.
+Between 2023 and 2024 we performed **multiple biological experiments on centipedes in confined environments**. Among various interesting behaviors, we discovered that centipedes often make use of an earthworm-like motion called **peristalsis when their legs are not enough to propel** them forward or when they are unable to use them.
 
 <br>
 
-Such observations, as well as the common knowledge that other great obstacle-climbers, legged elongate animals such as caterpillars use such motion too, convinced us of the importance of peristalsis in multilegged. Therefore we decided to design a multilegged robot capable of not only using a vertical body wave to propel forward, but also a peristaltic wave.
+Such observations, as well as the common knowledge that other great obstacle-climbers, legged elongate animals such as caterpillars use such motion too, convinced us of the importance of peristalsis in multilegged. Therefore we decided to **design a multilegged robot capable of** not only using **a vertical body wave** to propel forward, but also **a peristaltic wave**.
 
 <br>
 
@@ -33,7 +33,7 @@ Such observations, as well as the common knowledge that other great obstacle-cli
 <br>
 
 The objective was to create a design that was at the same time simple and elegant.
-The robot was an hybrid (in between rigid and soft) cord-driven robot, whose each joint presented two indipendent DoFs. A rotational DoF in the sagittal plane that composed the vertical wave, actuated by introducing a differential in the upper and lower cord lengths, and a linear DoF for periodic compression and extension, actuated by simultaneously compressing or relaxing the upper and lower cords. The two DoFs were made independent of each other by using two extension springs which provided enough resistance to keep the joint in place during a rotation but not during a compression. Finally, spring-steel belts were used to restore the module to the extended state after the contraction, as the cords can only provide stress in the tensile direction rather than in compression. In addition such belts also provided compliance to the robot body, which significantly helped in complex substrate interactions.
+The robot was an **hybrid (in between rigid and soft) cord-driven robot**, whose each joint presented two indipendent DoFs. A rotational DoF in the sagittal plane that composed the vertical wave, actuated by introducing a differential in the upper and lower cord lengths, and a **linear DoF for periodic compression and extension**, actuated by simultaneously compressing or relaxing the upper and lower cords. The two DoFs were made independent of each other by using two extension springs which provided enough resistance to keep the joint in place during a rotation but not during a compression. Finally, spring-steel belts were used to restore the module to the extended state after the contraction, as the cords can only provide stress in the tensile direction rather than in compression. In addition such belts also provided compliance to the robot body, which significantly helped in complex substrate interactions.
 
 <br>
 
@@ -51,7 +51,7 @@ The robot was an hybrid (in between rigid and soft) cord-driven robot, whose eac
 
 <br>
 
-Experimental results showed that while the benefit of peristalsis on flat-ground locomotion was marginal, the inclusion of a properly-phased peristaltic wave substantially improved the locomotion performance on rugose terrains. The addition of a peristaltic wave enables obstacle-climbing capabilities with obstacles having a similar height as the robot by manipulating the trajectory of the robot head, substantially reducing the forward translation of the robot, which reduces the possibility of jamming after collision with obstacles.
+Experimental results showed that while the benefit of peristalsis on flat-ground locomotion was marginal, the **inclusion of a properly-phased peristaltic wave substantially improved the locomotion performance on rugose terrains**. The addition of a peristaltic wave enables obstacle-climbing capabilities with obstacles having a similar height as the robot by manipulating the trajectory of the robot head, substantially reducing the forward translation of the robot, which **reduces the possibility of jamming after collision with obstacles**.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

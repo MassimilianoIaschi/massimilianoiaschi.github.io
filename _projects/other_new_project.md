@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Burrowing Robot?
-description: A proof-of-concept
+description: A proof-of-concept, summer 2025
 img: assets/img/burroww.gif
-importance: 2
+importance: 3
 category: Current Projects
 related_publications: false
 ---

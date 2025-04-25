@@ -8,9 +8,9 @@ category: Current Projects
 related_publications: false
 ---
 
-While our lab has mostly focused within the realm of mechanical intelligence, in the past couple of years we have started to look more into the power of computational intelligence, specifically when applied to centipede-inspired robotics. This project I am currently a part of under the supervision of PhD student Juntao He is the result of a collaboration between my professor Daniel Goldman and professor Sehoon Ha. We are currently working to bring to light two papers based on this project within the next months.
+While our lab has mostly focused within the realm of mechanical intelligence, in the past couple of years we have started to look more into **the power of computational intelligence**, specifically when applied to **centipede-inspired robotics**. This project I am currently a part of under the supervision of PhD student Juntao He is the result of a collaboration between my professor Daniel Goldman and professor Sehoon Ha. We are currently working to bring to light two papers based on this project within the next months.
 
-A first paper aims to explore how to improve the speed and stability of multi-legged robots locomoting over rough terrain. Building on earlier work that used a linear controller to adjust vertical body motion based on foot-sensor information, we developed a reinforcement learning-based controller that also adjusts horizontal body undulation, and leg stepping in order to identify their optimal combinations for the specific terrain being explored. We trained this controller using a MuJoCo-based simulator that we validated against real-world experiments. The new approach led to consistent improvements in speed, typically around 30–60%—in both lab and outdoor tests.
+A first paper aims to explore how to improve the speed and stability of multi-legged robots locomoting over rough terrain. Building on earlier work that used a linear controller to adjust vertical body motion based on foot-sensor information, we developed a **reinforcement learning-based controller that also adjusts horizontal body undulation, and leg stepping in order to identify their optimal combinations for the specific terrain being explored**. We trained this controller using a MuJoCo-based simulator that we validated against real-world experiments. The new approach led to consistent improvements in speed, typically around **30–60%—in both lab and outdoor tests**.
 
 <br>
 
@@ -30,7 +30,7 @@ A first paper aims to explore how to improve the speed and stability of multi-le
 
 <br>
 
-A second longer-term paper instead will focus on using short-term memory from tactile sensing, both feet and antennae, to enable effective motion planning in our robot. Our objective here is to combine all the gaits engineered within the past months for centipede-inspired robots (turning, climbing, self-righting, sidewinding...) with the use of reinforcement learning, ultimately aiming to achieve robust SLAM performance.
+A second longer-term paper instead will focus on using **short-term memory from tactile sensing, both feet and antennae, to enable effective motion planning in our robot**. Our objective here is to combine all the gaits engineered within the past months for centipede-inspired robots (turning, climbing, self-righting, sidewinding...) with the use of reinforcement learning, ultimately aiming to achieve **robust SLAM performance**.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 d-flex align-items-stretch mt-3 mt-md-0">

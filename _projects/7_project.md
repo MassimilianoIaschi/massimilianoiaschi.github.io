@@ -8,9 +8,9 @@ category: Past Projects
 related_publications: false
 ---
 
-Most robotics efforts nowadays go towards the development of extremely complex algorithms for enhancing locomotion on complex terrains, relying on the so-called computational intelligence. However, such algorithms are highly dependent on vision capabilities, which are often not available in cluttered, dark, narrow environments like search-and-rescue environments are. For this reason, in our lab, our objective is to take advantage of our robot's mechanical intelligence in order to perform complex locomotion tasks even just using open-loop control systems, which then coupled with simpler algorithms can achieve high-quality results on all terrains.
+Most robotics efforts nowadays go towards the development of extremely complex algorithms for enhancing locomotion on complex terrains, relying on the so-called computational intelligence. However, such algorithms are highly dependent on **vision capabilities, which are often not available in cluttered, dark, narrow environments like search-and-rescue environments are**. For this reason, in our lab, our objective is to **take advantage of our robot's mechanical intelligence** in order to perform complex locomotion tasks even just using open-loop control systems, which then **coupled with simpler algorithms can achieve high-quality results** on all terrains.
 
-By definition, centipede robots are long and narrow. The first feature, combined with their spatial redundancy (multiple legs) allows for great stability on every terrain. The second feature allows them to reach environments that most other legged robot cannot. The addition of bio-inspired compliance, bio-inspired tactile sensing, clever closed-loop/learning-based control systems then allows to optimize their performances.
+By definition, centipede robots are long and narrow. The first feature, combined with their **spatial redundancy (multiple legs)** allows for great stability on every terrain. The second feature allows them to reach environments that most other legged robot cannot. The addition of **bio-inspired compliance, bio-inspired tactile sensing, clever closed-loop/learning-based control systems then allows to optimize their performances**.
 
 <br>
 
