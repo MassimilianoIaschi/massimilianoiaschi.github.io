@@ -1,7 +1,7 @@
 ---
 layout: page
-title: New Soft Robotic Antenna?
-description: A proof-of-concept, summer 2025
+title: Proof of Concept, Spring/Summer 2026
+description: Soft Robotic Antenna? Burrowing Robot?
 img: assets/img/antennaaa.gif
 importance: 2
 category: Current Projects
@@ -9,7 +9,8 @@ related_publications: false
 ---
 <br>
 
-While working well enough for the sake of our RSS paper, the antenna prototype we used in that project was a very simple one, due to the limited amount of time we had. Now, this summer we are thinking to focus more on its design, and specifically even about giving it a "soft robotics twist" and see how this affects the overall robot locomotion capabilities.
+Creating a burrowing robot is a very ambitious project, especially based on the limited time left I have in the lab before I graduate. At the same time, since I have already CADed the 3D version of the peristaltic robot described in my ICRA paper, it would now be relatively straightforward to build it and iterate on it. 
+The essential ingredients to burrowing through sand-like or soil-like environments for centipedes seem to be **friction modulation and peristalsis**, it will be interesting to study whether similar behaviors can be achieved by means of mechanical design adjustments, clever controllers implementation, and how to **co-design through the combination of the two**.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 d-flex align-items-stretch mt-3 mt-md-0">
@@ -17,6 +18,7 @@ While working well enough for the sake of our RSS paper, the antenna prototype w
     </div>
 </div>
 
+While working well enough for the sake of our RSS paper, the antenna prototype we used in that project was a very simple one, due to the limited amount of time we had. Now,  we are thinking to focus more on its design, and specifically even about giving it a "soft twist" and see how this **affects the overall robot locomotion capabilities**.
 
 
 <br>

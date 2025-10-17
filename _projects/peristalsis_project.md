@@ -12,7 +12,7 @@ Between 2023 and 2024 we performed **multiple biological experiments on centiped
 
 <br>
 
-Such observations, as well as the common knowledge that other great obstacle-climbers, legged elongate animals such as caterpillars use such motion too, convinced us of the importance of peristalsis in multilegged. Therefore we decided to **design a multilegged robot capable of** not only using **a vertical body wave** to propel forward, but also **a peristaltic wave**.
+Such observations, as well as the common knowledge that other great obstacle-climbers, legged elongate animals such as caterpillars use such motion too, convinced us of the importance of peristalsis in multilegged robotics. Therefore we decided to **design a multilegged robot capable of** not only using **a vertical body wave** to propel forward, but also **a peristaltic wave**.
 
 <br>
 
