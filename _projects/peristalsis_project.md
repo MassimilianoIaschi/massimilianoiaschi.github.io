@@ -3,7 +3,7 @@ layout: page
 title: Using Peristaltic Waves to...
 description: ...enhance multilegged robotics locomotion in complex environments
 img: assets/img/my_paper.gif
-importance: 1
+importance: 2
 category: Past Projects
 related_publications: false
 ---
@@ -12,7 +12,7 @@ Between 2023 and 2024 we performed **multiple biological experiments on centiped
 
 <br>
 
-Such observations, as well as the common knowledge that other great obstacle-climbers, legged elongate animals such as caterpillars use such motion too, convinced us of the importance of peristalsis in multilegged robotics. Therefore we decided to **design a multilegged robot capable of** not only using **a vertical body wave** to propel forward, but also **a peristaltic wave**.
+Such observations, as well as the common knowledge that other great obstacle-climbers, legged elongate animals such as caterpillars use this mode of locomotion too, convinced us of the importance of peristalsis in multilegged robotics. Therefore we decided to **design a multilegged robot capable of** not only using **a vertical body wave** to propel forward, but also **a peristaltic wave**.
 
 <br>
 
@@ -55,10 +55,11 @@ Experimental results showed that while the benefit of peristalsis on flat-ground
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-    <video width="100%" controls>
-        <source src="https://dl.dropboxusercontent.com/scl/fi/l4j9vu2v66qv6efhhydkq/ICRA25_4530_VI_i-2.mp4?rlkey=mklg6nmhdhhzkykqmn188dz27&st=qr65bhlq&dl=1" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+        <video width="100%" controls>
+            <source src="{{ '/assets/img/max_icra.mp4' | relative_url }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
 </div>
 
 </div>

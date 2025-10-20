@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Scuttle...
-description: ...charatcerization of a new multi-segmented, multi-c-legged, CRAB Lab robot
+description: ...characterization of a new multi-segmented, multi-c-legged, CRAB Lab robot
 img: assets/img/scuttle_rough.gif
-importance: 1
+importance: 2
 category: Current Projects
 related_publications: false
 ---
@@ -25,6 +25,6 @@ related_publications: false
 
 <br>
 
-This project is still ongoing, as we are currently writing the paper and completing the last experiments. Given specific instructions from my professor, not too many details can be discussed here at this stage.
+This project is still ongoing, as we are currently writing the paper, a journal paper, and completing the last experiments. Given specific instructions from my professor, not too many details can be discussed here at this stage.
 
 The design of this robot was mainly carried out by the amazing Vincent Nienhusser and Esteban Flores for professor Dan Goldman startup company Ground Control Robotics. Me and the talented PhD student Jianfeng Lin have been leading the research side of this robot, with the objective of characterizing its performance by exploring **its physics as well as its control on various terrains**. This task was accomplished using a combination of theoretical and experimental physics of locomotion that in the lab we describe as "robophysics".

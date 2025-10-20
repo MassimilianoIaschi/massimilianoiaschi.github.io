@@ -27,7 +27,7 @@ related_publications: false
 
 This project is still ongoing. As it just started 2 months ago, many details are still evolving while I am writing this description and cannot be described furthermore here.
 
-The project is a **collaboration between Prof. Marco Hutter and Prof. Baxi Chong (my former supervisor of mine at Dan Goldman's lab)**. My supervisor at ETH is Postdoc Robert Baines. The objective of this project is to study and potentially optimize through successful **co-design** (optimizing the robot's morphology and control policy at the same time) **lizard locomotion** through robotics platforms, **both in sim and in real**. I am leading the sim/learning aspect using a IsaacLab-based framework. Simultaneously, at Penn, Baxi's team is testing the hypotheses made on the real robot.
+The project is a **collaboration between Prof. Marco Hutter and Prof. Baxi Chong (my former supervisor at Dan Goldman's lab)**. My supervisor at ETH is Postdoc Robert Baines. The objective of this project is to study and optimize through successful **co-design** (optimizing the robot's morphology and control policy at the same time) **lizard locomotion** through robotics platforms, **both in sim and in real**. I am leading the sim/learning aspect using a IsaacLab-based framework. Simultaneously, at Penn, Baxi's team is testing the hypotheses made on the real robot.
 
 
 <br>
