@@ -39,7 +39,7 @@ announcements:
 </p>
 
 <p>
-  While in the CRAB Lab we emphasize on the mechanical intelligence of the robots rather than on their computational intelligence, and we use our robots as a tool to model experimentally the principles of their physics of locomotion, <strong>my idea is to pursue my PhD in a lab that still works at the intersection of robotics, physics, and biology, but prioritizes building systems through rigorous engineering</strong> with the objective of not only <strong>advancing science through robotics</strong> (e.g. paleoinspired robotics), but <strong>especially of discovering solutions that could transform the state-of-the-art in exploratory/search-and-rescue/space robotics.</strong>, where emphasis is given not only to design, controls, and modeling, but also to the <strong>robot's autonomy and planning</strong>.
+  While in the CRAB Lab we emphasize on the mechanical intelligence of the robots rather than on their computational intelligence, and we use our robots as a tool to model experimentally the principles of their physics of locomotion, <strong>my idea is to pursue my PhD in a lab that still works at the intersection of robotics, physics, and biology, but prioritizes building systems through rigorous engineering</strong> with the objective of not only <strong>advancing science through robotics</strong>, but <strong>also of discovering solutions that could transform the state-of-the-art in exploratory/search-and-rescue/space robotics</strong>, where emphasis is given mainly to design, controls, and modeling, but also to the robot's autonomy and planning.
 </p>
 
 <p>
