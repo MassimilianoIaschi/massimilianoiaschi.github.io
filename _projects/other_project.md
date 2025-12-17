@@ -10,7 +10,12 @@ related_publications: false
 
 <br>
 
-The main project I worked on when I was part of the **PoWeR lab** was under the supervision of **Amro Alshareef** during Spring 2023. With his help, I **designed and implemented a PID control system** in Simulink for **Bump’Em**, an **open-source bump-emulation platform** developed at Stanford University, that we recreated in our lab at Georgia Tech to study **human balance and gait**.
+The main project I worked on when I was part of the **PoWeR lab** was to **develop and tune PID controllers in Simulink for torque tracking during center-of-mass perturbation experiments** using Stanford’s open-source **Bump’em platform** (shown below) to study human balance. On top of that, I **assisted with experiments and analysis** for such human balance study as well as for a study that aimed to investigate how different spring-like and motor-like torque profiles on bilateral powered ankle exoskeletons (Dephy) affect gait mechanics and walking energy cost in young and older adults.
+
+
+
+
+With his help, I **designed and implemented a PID control system** in Simulink for **Bump’Em**, an **open-source bump-emulation platform** developed at Stanford University, that we recreated in our lab at Georgia Tech to study **human balance and gait**.
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-6 d-flex align-items-stretch mt-3 mt-md-0">
@@ -27,8 +32,7 @@ The main project I worked on when I was part of the **PoWeR lab** was under the 
 
 <br>
 
-**Tethys** is a spin-off project at **ETH Zurich's Autonomous Systems Lab**, led by **Prof. Roland Siegwart**, dedicated to developing **autonomous underwater vehicles (AUVs)** for exploration, environmental monitoring, and search-and-rescue missions. During my Summer 2023 internship, I contributed to **multiple aspects** of the project, while simultaneously taking two **Georgia Tech courses** and attending an **ETH course in ROS for master's students**.
-Specifically, my responsibilities included: **autonomously testing the robot in the wild, design a legged retractable automatic locking mechanism to ease robot deployment, planning to improve underwater locomotion by both designing SLAM-based algorithms and soft-robotic components** (Tethys was in that period collaborating with Prof.Katzschmann).
+**Tethys** is a project at **ETH Zurich's Autonomous Systems Lab** dedicated to developing **autonomous underwater vehicles (AUVs)** for exploration, environmental monitoring, and search-and-rescue missions. During my Summer 2023 research internship, I contributed to multiple aspects of the **underwater robot Proteus**. Specifically, my responsibilities included: **autonomously testing the robot in the wild, designing a self-retracting locking leg mechanism to simplify land-to-water deployment, and designing a soft-robotic tail (high-level)** (Tethys was in that period collaborating with Prof.Katzschmann).
 
 <br>
 
@@ -73,8 +77,10 @@ The project focused on validating the hypothesis that **thermal modulation** at 
 
 My contributions included:
 - Designing and assembling a **simple custom hardware setup** for generating thermal illusions
-- Developing a **feed-forward temperature control system** in **LabVIEW** to enable real-time modulation and targeted **haptic perception**
-- Carrying out literature review and writing a detailed report (which unluckily took most of the project time), used by the lab members to write an actual paper months after, by significantly improving and integrating my exploratory  and inexperienced work: **On the Correlation Between Tactile Stimulation and Pleasantness, IEEE TRANSACTIONS ON HAPTICS, December 2023**
+- Developing **feed-forward temperature control systems** in **LabVIEW** to enable real-time modulation and targeted **haptic perception**
+- Carrying out literature review and writing a detailed report. 
+
+The following paper of the lab: **On the Correlation Between Tactile Stimulation and Pleasantness, IEEE TRANSACTIONS ON HAPTICS, December 2023**, uses the infrastructure I developed during that summer.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

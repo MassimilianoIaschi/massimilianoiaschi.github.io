@@ -25,6 +25,4 @@ related_publications: false
 
 <br>
 
-This project is still ongoing, as we are currently writing the paper, a journal paper, and completing the last experiments. Given specific instructions from my professor, not too many details can be discussed here at this stage.
-
-The design of this robot was mainly carried out by the amazing Vincent Nienhusser and Esteban Flores for professor Dan Goldman startup company Ground Control Robotics. Me and the talented PhD student Jianfeng Lin have been leading the research side of this robot, with the objective of characterizing its performance by exploring **its physics as well as its control on various terrains**. This task was accomplished using a combination of theoretical and experimental physics of locomotion that in the lab we describe as "robophysics".
+In this project, co-led with the talented PhD student Jianfeng Lin, we characterized **Scuttle, a novel multi-segmented, multi-C-legged robotic platform**, by studying its **dynamics on flat, granular, and rugged terrains through robophysical experiments together with RFT- and geometric-mechanics-based modeling, and developing several open-loop controllers**. In the resulting journal manuscript (in preparation), we demonstrate that **synchronizing clock-driven C-leg rotational dynamics with coordinated horizontal and vertical body waves enables roughly fourfold speed increases** over our baseline control scheme and robust locomotion on terrains where the robot previously could not move.

@@ -8,13 +8,11 @@ category: Current Projects
 related_publications: false
 ---
 
-While our lab has mostly focused within the realm of mechanical intelligence, in the past couple of years we have started to look more into **the power of computational intelligence**, specifically when applied to **centipede-inspired robotics**. This project I am currently a part of under the supervision of PhD student Juntao He is the result of a collaboration between my professor Daniel Goldman and professor Sehoon Ha. 
-Because the project is led by Juntao, who was working an internship during summer, my contribution in the project so far has been quite limited, and it consists in **leading two undergraduate students to respectively design and build the first prototypes of the new robotic antenna and foot semsors network and to implement the simulation in Mujoco**. 
-While I am away this Fall, I am very excited to continue my contribution in the project during the Spring in order to learn more about mobile robots' autonomy and planning.
+While our lab has mostly focused within the realm of mechanical intelligence, in the past couple of years we have started to look more into **the power of computational intelligence**, specifically when applied to **centipede-inspired robotics**. This project I am currently a part of under the supervision of PhD student Juntao He is the result of a collaboration between my professor Daniel Goldman and professor Sehoon Ha, and focuses on **enhancing the autonomous capabilities of our centipede robots using short-term memory from tactile sensing, both feet and antenna**.
+Because the project is led by Juntao, who was working an internship during summer, my contribution in the project so far has been quite limited, and it consists in **leading two undergraduate students to respectively design and build the first prototypes of the new robotic antenna and to implement the simulation in Mujoco**. 
+While I am away this Fall, I am very excited to continue my contribution in the project during the Spring in order to learn more about autonomy and planning.
 
 <br>
-
-The project focuses on using **short-term memory from tactile sensing, both feet and antennae, to enable effective motion planning in our robot**. Our objective here is to combine all the gaits engineered within the past months for centipede-inspired robots (turning, climbing, self-righting, sidewinding...) and learning, ultimately aiming to achieve **robust SLAM performance through tactile sensing only**, if possible.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 d-flex align-items-stretch mt-3 mt-md-0">

@@ -71,7 +71,7 @@ description: The most recent version of my Curriculum Vitae
 
   <iframe 
     class="cv-frame"
-    src="{{ '/assets/files/cv_oct_23_25.pdf' | relative_url }}">
+    src="{{ '/assets/files/final_cv.pdf' | relative_url }}">
     This browser does not support embedded PDFs. Please use the download link below.
   </iframe>
 </div>
