@@ -12,11 +12,6 @@ related_publications: false
 
 The main project I worked on when I was part of the **PoWeR lab** was to **develop and tune PID controllers in Simulink for torque tracking during center-of-mass perturbation experiments** using Stanford’s open-source **Bump’em platform** (shown below) to study human balance. On top of that, I **assisted with experiments and analysis** for such human balance study as well as for a study that aimed to investigate how different spring-like and motor-like torque profiles on bilateral powered ankle exoskeletons (Dephy) affect gait mechanics and walking energy cost in young and older adults.
 
-
-
-
-With his help, I **designed and implemented a PID control system** in Simulink for **Bump’Em**, an **open-source bump-emulation platform** developed at Stanford University, that we recreated in our lab at Georgia Tech to study **human balance and gait**.
-
 <div class="row justify-content-sm-center">
   <div class="col-sm-6 d-flex align-items-stretch mt-3 mt-md-0">
     <video class="img-fluid rounded w-100" style="object-fit: contain; height: 300px;" autoplay loop muted playsinline>
@@ -27,7 +22,7 @@ With his help, I **designed and implemented a PID control system** in Simulink f
 </div>
 
 <div class="caption">
-    Video shows me testing the bump'em platform that me and Amro implemented in the PoWeR lab, with increasing force perturbation amplitudes.
+    Video shows me testing the bump'em platform that me and Amro implemented in the PoWeR lab, with increasing perturbation amplitudes.
 </div>
 
 <br>
@@ -67,20 +62,18 @@ Despite the introductory role, it helped me grasp key concepts of **robotic loco
 </div>
 
 <div class="caption">
-    Flexybot, a simple hexapod robot. A paper based on our Fall 2023 experiments is planned for submission in the coming months, where I will contribute to the physics modeling.
+    Flexybot, a simple hexapod robot.
 </div>
 
 <br>
 
-I spent my **two months of my first summer at Georgia Tech** at **Domenico Prattichizzo's lab** at Siena University, while taking two Georgia tech courses.
+I spent my **two months of my first summer at Georgia Tech** at **Domenico Prattichizzo's SIRSLab** at Siena University, while taking two Georgia tech courses.
 The project focused on validating the hypothesis that **thermal modulation** at the fingertip can create the **illusion of a broader contact surface**, due to the temperature dependence of human skin's viscoelastic and moisture properties.
 
 My contributions included:
 - Designing and assembling a **simple custom hardware setup** for generating thermal illusions
-- Developing **feed-forward temperature control systems** in **LabVIEW** to enable real-time modulation and targeted **haptic perception**
-- Carrying out literature review and writing a detailed report. 
-
-The following paper of the lab: **On the Correlation Between Tactile Stimulation and Pleasantness, IEEE TRANSACTIONS ON HAPTICS, December 2023**, uses the infrastructure I developed during that summer.
+- Developing **feed-back temperature control systems** in **LabVIEW** to enable real-time modulation and targeted **haptic perception**
+- Carrying out literature review and writing a detailed report.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
