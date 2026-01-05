@@ -21,6 +21,7 @@ related_publications: false
 
 <div class="caption">
     The video shows two sessions of a Tree-structured Parzen Estimator-based Bayesian Optimization for single-sized legged lizards to optimize the parameters of a controller to generate "Hildebrand-like" gaits.
+</div>
 
 <br>
 
